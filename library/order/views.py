@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def order_page(request):
+    return HttpResponse(
+        "<h1>This is order app page! Congratulations!</h1>"
+    )
