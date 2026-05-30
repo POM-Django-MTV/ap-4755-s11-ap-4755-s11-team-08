@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'user',
+    'author',  # Додайте цей рядок
+    'book',    # Додайте цей рядок
     'order',
+    'user',
 ]
 
 MIDDLEWARE = [
